@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macro %}
+
+{% block titulo %}
+  {{ super() }}
+  Aplication
+{% endblock %}
+
+{% block contenido %}
+  <h1>Hola tu IP es {{ ip_usera }}</h1>
+
+  <ul>
+    {% for nomb in nombres %}
+      {{ macro.render_items(nomb) }}
+    {% endfor %}
+  </ul>
+{% endblock %}
+
+{% block tabla %}
+  <table border="1">
+    <caption>DATOS DESDE EL .JSON</caption>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NOMBRE</th>
+        <th>APELLIDO</th>
+        <th>EMAIL</th>
+        <th>FCH. NACIMIENTO</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for dato in datos %}
+        <tr>
+          <td>{{ dato.id }}</td>
+          <td>{{ dato.first_name }}</td>
+          <td>{{ dato.last_name }}</td>
+          <td>{{ dato.email }}</td>
+          <td>{{ dato.year }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">Estoy orgulloso hasta donde estas llegando señor</td>
+      </tr>
+    </tfoot>
+  </table>
+{% endblock %}

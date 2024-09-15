@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "first_name": "Kennan",
+        "last_name": "Hackworth",
+        "email": "khackworth0@ucla.edu",
+        "year": 1999
+    },
+    {
+        "id": 2,
+        "first_name": "Serge",
+        "last_name": "Herche",
+        "email": "sherche1@narod.ru",
+        "year": 2001
+    },
+    {
+        "id": 3,
+        "first_name": "Al",
+        "last_name": "Burgot",
+        "email": "aburgot2@e-recht24.de",
+        "year": 1965
+    },
+    {
+        "id": 4,
+        "first_name": "Candy",
+        "last_name": "Murkus",
+        "email": "cmurkus3@sourceforge.net",
+        "year": 1999
+    },
+    {
+        "id": 5,
+        "first_name": "Lilly",
+        "last_name": "Ellerbeck",
+        "email": "lellerbeck4@eventbrite.com",
+        "year": 2007
+    },
+    {
+        "id": 6,
+        "first_name": "Cyndia",
+        "last_name": "Brayshay",
+        "email": "cbrayshay5@mediafire.com",
+        "year": 1982
+    },
+    {
+        "id": 7,
+        "first_name": "Malissia",
+        "last_name": "Pughsley",
+        "email": "mpughsley6@netvibes.com",
+        "year": 2007
+    },
+    {
+        "id": 8,
+        "first_name": "Ferd",
+        "last_name": "Georgescu",
+        "email": "fgeorgescu7@about.com",
+        "year": 2011
+    },
+    {
+        "id": 9,
+        "first_name": "Ursala",
+        "last_name": "Blance",
+        "email": "ublance8@github.io",
+        "year": 2002
+    },
+    {
+        "id": 10,
+        "first_name": "Curran",
+        "last_name": "Swede",
+        "email": "cswede9@berkeley.edu",
+        "year": 2008
+    }
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block titulo %}
+        Flask |
+      {% endblock %}
+    </title>
+  </head>
+
+  <body>
+    <header>
+      {% include 'nav_bar.html' %}
+    </header>
+    {% block contenido %}
+
+    {% endblock %}
+
+    {% block tabla %}
+
+    {% endblock %}
+  </body>
+</html>
